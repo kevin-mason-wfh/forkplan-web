@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html { scroll-behavior: smooth; }
+  body { @apply bg-cream font-sans text-forest antialiased; }
+  :focus-visible { @apply outline outline-2 outline-offset-4 outline-leaf; }
+}
+
+@layer components {
+  .container-page { @apply mx-auto max-w-6xl px-5 sm:px-8; }
+  .button { @apply inline-flex items-center justify-center gap-2 rounded-full px-6 py-3 font-semibold transition-colors; }
+  .button-dark { @apply bg-forest text-white hover:bg-leaf; }
+  .button-light { @apply bg-lime text-forest hover:bg-white; }
+  .nav-link { @apply text-sm font-medium underline-offset-4 transition-colors hover:underline; }
+  .nav-active { @apply underline; }
+  .text-link { @apply font-semibold text-leaf underline underline-offset-4 hover:text-forest; }
+  .eyebrow { @apply text-xs font-bold uppercase tracking-[0.18em] text-leaf; }
+  .page-title { @apply font-serif text-4xl leading-tight tracking-tight sm:text-5xl; }
+  .skip-link { @apply fixed left-4 top-4 z-50 -translate-y-24 rounded bg-white px-4 py-2 text-forest focus:translate-y-0; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+}
