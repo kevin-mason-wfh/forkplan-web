@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#173f35"/>
+  <circle cx="1000" cy="170" r="220" fill="#39765a"/>
+  <circle cx="1040" cy="530" r="180" fill="#d9efb2" opacity=".8"/>
+  <text x="100" y="215" fill="#d9efb2" font-family="Arial, sans-serif" font-size="48" font-weight="700">FORKPLAN</text>
+  <text x="100" y="330" fill="#fff" font-family="Georgia, serif" font-size="78">Make room for</text>
+  <text x="100" y="425" fill="#fff" font-family="Georgia, serif" font-size="78">good food.</text>
+  <text x="104" y="505" fill="#e1eadc" font-family="Arial, sans-serif" font-size="28">A little more plan, a lot less mealtime stress.</text>
+</svg>
